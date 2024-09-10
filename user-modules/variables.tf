@@ -15,5 +15,7 @@ variable "environment" {
 }
 
 variable "vpc_tags" {
-  default = {}
+  default = {
+    hi = "hello"
+  }
 }
